@@ -10,7 +10,7 @@ import upmap from "./assets/images/upmap.jpg";
 const cities = [
   {
     name: "Agra",
-    image: taj,
+    image: agra,
     description:
       "Agra is famous for the Taj Mahal, Mughal architecture and marble artwork.",
     famous: ["Taj Mahal", "Agra Fort", "Petha", "Marble Art"],
@@ -18,7 +18,8 @@ const cities = [
 
   {
     name: "Lucknow",
-    image: taj,
+    image:
+      "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=1200&auto=format&fit=crop",
     description:
       "Lucknow is known for Nawabi culture, Chikankari and delicious kebabs.",
     famous: ["Chikankari", "Bara Imambara", "Kathak", "Tunday Kebabs"],
@@ -26,7 +27,8 @@ const cities = [
 
   {
     name: "Varanasi",
-    image: taj,
+    image:
+      "https://images.unsplash.com/photo-1561361058-c24cecae35ca?q=80&w=1200&auto=format&fit=crop",
     description:
       "Varanasi is one of the oldest spiritual cities of India.",
     famous: ["Ganga Aarti", "Banarasi Silk", "Kashi Temple", "Paan"],
@@ -153,22 +155,22 @@ function Home() {
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          <img
-            src={taj}
-            className="rounded-3xl shadow-2xl h-80 w-full object-cover"
-          />
+  <img
+    src="https://images.unsplash.com/photo-1514222134-b57cbb8ce073?q=80&w=1200&auto=format&fit=crop"
+    className="rounded-3xl shadow-2xl h-80 w-full object-cover"
+  />
 
-          <img
-            src={taj}
-            className="rounded-3xl shadow-2xl h-80 w-full object-cover"
-          />
+  <img
+    src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1200&auto=format&fit=crop"
+    className="rounded-3xl shadow-2xl h-80 w-full object-cover"
+  />
 
-          <img
-            src={taj}
-            className="rounded-3xl shadow-2xl h-80 w-full object-cover"
-          />
+  <img
+    src="https://images.unsplash.com/photo-1606298855672-3efb63017be8?q=80&w=1200&auto=format&fit=crop"
+    className="rounded-3xl shadow-2xl h-80 w-full object-cover"
+  />
 
-        </div>
+</div>
       </section>
 
       {/* TAJ SHOWCASE */}
