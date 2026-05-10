@@ -21,7 +21,7 @@ import lucknow2 from "./assets/images/lucknow2.jpg";
 
 import varanasi1 from "./assets/images/varanasi1.jpg";
 import varanasi2 from "./assets/images/varanasi2.jpg";
-
+import { Instagram } from "lucide-react";
 const cities = [
   {
     name: "Agra",
@@ -232,15 +232,32 @@ function Home() {
       {/* FOOTER */}
       <footer className="bg-black border-t border-gray-800 py-10 text-center px-4">
 
-        <h2 className="text-2xl md:text-4xl font-bold text-orange-400">
-          Indian Knowledge System
-        </h2>
+  <h2 className="text-2xl md:text-4xl font-bold text-orange-400">
+    Indian Knowledge System
+  </h2>
 
-        <p className="text-gray-400 mt-4 text-sm md:text-lg">
-          Preserving the rich heritage of Uttar Pradesh
-        </p>
+  <p className="text-gray-400 mt-4 text-sm md:text-lg">
+    Preserving the rich heritage of Uttar Pradesh
+  </p>
 
-      </footer>
+  <p className="text-gray-500 mt-6 text-sm md:text-base">
+    Designed & Developed by <span className="text-orange-400 font-semibold">
+      Uday Srivastav
+    </span>
+  </p>
+
+  <a
+    href="https://www.instagram.com/_roots_of_bharat_/"
+    target="_blank"
+    rel="noreferrer"
+    className="flex items-center justify-center gap-2 mt-5 text-orange-400 hover:text-orange-300 transition"
+  >
+    <Instagram size={22} />
+    @_roots_of_bharat_
+  </a>
+
+</footer>
+    
     </div>
   );
 }
