@@ -5,33 +5,52 @@ import { MessageCircle } from "lucide-react";
 import indiaVideo from "./assets/videos/india.mp4";
 
 import taj from "./assets/images/taj.jpg";
+import lucknow from "./assets/images/lucknow.jpg";
+import varanasi from "./assets/images/varanasi.jpg";
+
+import festival1 from "./assets/images/festival1.jpg";
+import festival2 from "./assets/images/festival2.jpg";
+import festival3 from "./assets/images/festival3.jpg";
+
 import upmap from "./assets/images/upmap.jpg";
 
 const cities = [
   {
     name: "Agra",
-    image: agra,
+    image: taj,
     description:
-      "Agra is famous for the Taj Mahal, Mughal architecture and marble artwork.",
+      "Agra is home to the iconic Taj Mahal and rich Mughal heritage.",
+
     famous: ["Taj Mahal", "Agra Fort", "Petha", "Marble Art"],
+
+    details:
+      "Agra is one of the most historically significant cities in India and is situated on the banks of the Yamuna River in the state of Uttar Pradesh. The city became prominent during the Mughal period and served as the capital of the Mughal Empire under several rulers including Akbar, Jahangir and Shah Jahan. Agra is internationally renowned for the Taj Mahal, one of the Seven Wonders of the World and a UNESCO World Heritage Site. Built by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, the monument is considered a masterpiece of Mughal architecture and symbolizes eternal love. Constructed using white marble and decorated with intricate carvings, precious stones and Persian-inspired designs, the Taj Mahal attracts millions of tourists every year from across the world.\n\nApart from the Taj Mahal, Agra is home to several other historical monuments such as the Agra Fort, Fatehpur Sikri and Itmad-ud-Daulah’s Tomb. Agra Fort, another UNESCO World Heritage Site, was built mainly using red sandstone and served as the residence of Mughal emperors for many years. Fatehpur Sikri, located near Agra, was established by Emperor Akbar and reflects a unique blend of Persian, Islamic and Indian architectural styles. These monuments showcase the grandeur, artistic excellence and engineering brilliance of the Mughal era.\n\nAgra is also known for its traditional handicrafts, marble inlay work, leather products and carpets. Skilled artisans of Agra continue to preserve centuries-old art forms that have been passed down through generations. The city is famous for its sweet dish called Petha, which is loved by both locals and tourists. Agra’s culture reflects a beautiful blend of Mughal heritage and Indian traditions. Festivals such as Diwali, Eid and Taj Mahotsav are celebrated with great enthusiasm. Taj Mahotsav, an annual cultural festival, highlights the art, crafts, music and cuisine of the region.\n\nToday, Agra remains one of the most visited tourist destinations in India due to its historical importance, architectural beauty and cultural richness. The city continues to preserve its glorious past while developing as a modern urban center. Agra plays an important role in promoting Indian tourism and heritage on the global stage.",
+
   },
 
   {
     name: "Lucknow",
-    image:
-      "https://images.unsplash.com/photo-1599661046289-e31897846e41?q=80&w=1200&auto=format&fit=crop",
+    image: lucknow,
     description:
-      "Lucknow is known for Nawabi culture, Chikankari and delicious kebabs.",
+      "Lucknow is famous for Nawabi culture, food and Chikankari art.",
+
     famous: ["Chikankari", "Bara Imambara", "Kathak", "Tunday Kebabs"],
+
+    details:
+      "Lucknow, the capital city of Uttar Pradesh, is widely known as the City of Nawabs because of its strong historical connection with the Nawabs of Awadh. The city is famous for its rich cultural heritage, refined etiquette, poetry, music, cuisine and architectural beauty. Lucknow has played an important role in Indian history and emerged as a major center of art, literature and politics during the Mughal and British periods. The city is especially admired for its unique blend of traditional values and modern urban lifestyle.\n\nOne of the most iconic landmarks of Lucknow is the Bara Imambara, an architectural masterpiece built by Nawab Asaf-ud-Daula in the 18th century. The monument is famous for its grand central hall and the Bhool Bhulaiya, a fascinating labyrinth consisting of interconnected passages and stairways. Other historical structures such as Chota Imambara, Rumi Darwaza and Clock Tower further enhance the beauty and historical significance of the city. The architecture of Lucknow reflects a blend of Mughal, Persian and Awadhi influences.\n\nLucknow is globally recognized for Chikankari embroidery, a traditional hand embroidery art form practiced for centuries. Skilled artisans create beautiful patterns on fabrics using delicate needlework techniques. The city is also famous for its delicious Awadhi cuisine which includes kebabs, biryani, korma and various traditional sweets. Tunday Kebabi is one of the most popular food destinations in Lucknow and is known for its flavorful kebabs.\n\nThe cultural atmosphere of Lucknow is deeply connected with Urdu poetry, classical music and Kathak dance. The city has contributed greatly to Indian literature and performing arts. Festivals such as Diwali, Eid, Holi and Muharram are celebrated with great enthusiasm and harmony among people of different communities. Lucknow is also an important educational and administrative center with several universities, research institutions and government offices.\n\nToday, Lucknow stands as one of the fastest-growing cities in northern India while still preserving its historical identity and cultural traditions. The city beautifully combines heritage with modernization and continues to attract tourists, students and professionals from across the country.",
+
   },
 
   {
     name: "Varanasi",
-    image:
-      "https://images.unsplash.com/photo-1561361058-c24cecae35ca?q=80&w=1200&auto=format&fit=crop",
+    image: varanasi,
     description:
-      "Varanasi is one of the oldest spiritual cities of India.",
+      "Varanasi is one of the world’s oldest spiritual cities.",
+
     famous: ["Ganga Aarti", "Banarasi Silk", "Kashi Temple", "Paan"],
+
+    details:
+      "Varanasi, also known as Kashi or Banaras, is one of the oldest continuously inhabited cities in the world and is regarded as the spiritual capital of India. Located on the banks of the sacred River Ganga in Uttar Pradesh, Varanasi holds immense religious, cultural and historical significance. According to Hindu beliefs, the city was founded by Lord Shiva and is considered one of the holiest pilgrimage destinations for Hindus. Millions of devotees visit Varanasi every year to take a holy dip in the River Ganga and seek spiritual purification.\n\nThe city is famous for its ancient ghats and temples that line the banks of the river. Dashashwamedh Ghat is one of the most popular ghats where the grand Ganga Aarti takes place every evening. During this spiritual ceremony, priests perform rituals with large lamps, chants and prayers while devotees gather to witness the divine atmosphere. The Kashi Vishwanath Temple, dedicated to Lord Shiva, is among the most important temples in India and attracts pilgrims from all over the world.\n\nVaranasi is also a major center of learning, music and culture. The city has been associated with Sanskrit education, philosophy and spiritual teachings for centuries. Banaras Hindu University, one of India’s largest and most prestigious universities, is located in the city and contributes significantly to education and research. Varanasi is famous for Banarasi silk sarees which are known for their fine craftsmanship, intricate patterns and luxurious fabric. These sarees are highly valued across India and abroad.\n\nThe city has made remarkable contributions to Indian classical music and arts. Legendary musicians and scholars have lived and performed in Varanasi, making it a center of cultural excellence. The narrow lanes of the city are filled with temples, shops, traditional eateries and vibrant local life. Banarasi paan is another popular specialty enjoyed by visitors.\n\nVaranasi’s spiritual energy, historical heritage and cultural richness make it one of the most unique cities in the world. The combination of ancient traditions, religious devotion and artistic excellence gives the city a timeless identity. Even in modern times, Varanasi continues to preserve its sacred atmosphere while welcoming millions of tourists and pilgrims every year.",
   },
 ];
 
@@ -152,25 +171,26 @@ function Home() {
         <h2 className="text-3xl md:text-6xl font-bold text-center text-orange-400 mb-16">
           Festivals of Uttar Pradesh
         </h2>
-
         <div className="grid md:grid-cols-3 gap-8">
 
   <img
-    src="https://images.unsplash.com/photo-1514222134-b57cbb8ce073?q=80&w=1200&auto=format&fit=crop"
+    src={festival1}
     className="rounded-3xl shadow-2xl h-80 w-full object-cover"
   />
 
   <img
-    src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1200&auto=format&fit=crop"
+    src={festival2}
     className="rounded-3xl shadow-2xl h-80 w-full object-cover"
   />
 
   <img
-    src="https://images.unsplash.com/photo-1606298855672-3efb63017be8?q=80&w=1200&auto=format&fit=crop"
+    src={festival3}
     className="rounded-3xl shadow-2xl h-80 w-full object-cover"
   />
 
 </div>
+
+        
       </section>
 
       {/* TAJ SHOWCASE */}
@@ -242,7 +262,7 @@ function CityPage({ city }) {
       <div className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
 
         <p className="text-lg md:text-2xl text-gray-300 leading-10 mb-14">
-          {city.description}
+           {city.details}
         </p>
 
         <h2 className="text-3xl md:text-5xl font-bold text-orange-400 mb-10">
