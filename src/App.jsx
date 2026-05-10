@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Instagram } from "lucide-react";
 
 import indiaVideo from "./assets/videos/india.mp4";
 
@@ -21,7 +21,7 @@ import lucknow2 from "./assets/images/lucknow2.jpg";
 
 import varanasi1 from "./assets/images/varanasi1.jpg";
 import varanasi2 from "./assets/images/varanasi2.jpg";
-import { Instagram } from "lucide-react";
+
 const cities = [
   {
     name: "Agra",
