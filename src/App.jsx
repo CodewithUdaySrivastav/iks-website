@@ -252,7 +252,7 @@ function Home() {
     rel="noreferrer"
     className="flex items-center justify-center gap-2 mt-5 text-orange-400 hover:text-orange-300 transition"
   >
-   <span>📸</span>
+   <span>Do Follow📸</span>
     @_roots_of_bharat_
   </a>
 
